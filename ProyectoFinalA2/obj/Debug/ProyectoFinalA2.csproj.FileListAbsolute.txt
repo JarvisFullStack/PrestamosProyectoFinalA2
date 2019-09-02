@@ -64,3 +64,5 @@ C:\Users\darkarmy\source\repos\ProyectoFinalA2\ProyectoFinalA2\obj\Debug\Proyect
 C:\Users\darkarmy\source\repos\ProyectoFinalA2\ProyectoFinalA2\obj\Debug\ProyectoFinalA2.csproj.CopyComplete
 C:\Users\darkarmy\source\repos\ProyectoFinalA2\ProyectoFinalA2\obj\Debug\ProyectoFinalA2.dll
 C:\Users\darkarmy\source\repos\ProyectoFinalA2\ProyectoFinalA2\obj\Debug\ProyectoFinalA2.pdb
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\ProyectoFinalA2\bin\EntityFramework.SqlServer.dll
+C:\Users\darkarmy\source\repos\ProyectoFinalA2\ProyectoFinalA2\bin\EntityFramework.SqlServer.xml
