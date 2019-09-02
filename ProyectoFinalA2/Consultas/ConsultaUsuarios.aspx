@@ -19,8 +19,8 @@
                     <asp:TextBox ID="FiltroTextBox" runat="server" CssClass="form-control input-sm"></asp:TextBox>
                 </div>
                 <div class="col-md-4">
-                   <%-- <asp:Button ID="BuscarButton" CausesValidation="false" UseSubmitBehavior="false" runat="server" Class="btn btn-success input-sm" Text="Buscar" OnClick="BuscarButton_Click" /> --%>
-                    <asp:LinkButton ID="btnBusquedaUsuarios" CausesValidation="false" UseSubmitBehavior="false" runat="server" Class="btn btn-success input-sm" Text="Buscar" >
+                    <asp:Button ID="BuscarButton" CausesValidation="false" UseSubmitBehavior="false" runat="server" Class="btn btn-success input-sm" Text="Buscar" OnClick="BuscarButton_Click" /> 
+                    
                 </div>
             </div>
 

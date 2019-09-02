@@ -14,14 +14,14 @@ namespace ProyectoFinalA2.Consultas
         protected void Page_Load(object sender, EventArgs e)
         {
             BuscarButton_Click((object)this.BuscarButton, new EventArgs());
+           
         }
 
         protected void BuscarButton_Click(object sender, EventArgs e)
         {
             //Inicializando el filtro en True
             Expression<Func<User, bool>> filtro = x => true;
-            BLL.BaseRepository<User> repositorio = new BLL.BaseRepository<User>();
-
+            BLL.BaseRepository<User> repositorio = new BLL.BaseRepository<User>();  
             int id;
             if (!string.IsNullOrEmpty(FiltroTextBox.Text))
             {

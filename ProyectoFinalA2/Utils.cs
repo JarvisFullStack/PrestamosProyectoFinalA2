@@ -28,5 +28,7 @@ namespace ProyectoFinalA2
             page.ClientScript.RegisterStartupScript(page.GetType(), "toastr_message",
                   String.Format("toastr.{0}('{1}', '{2}');", type.ToLower(), message, title), addScriptTags: true);            
         }
+
+
     }
 }

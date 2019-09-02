@@ -11,8 +11,7 @@ namespace ProyectoFinalA2.Mantenimientos
     public partial class RegistroUsuarios : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-            
+        {            
             if (!Page.IsPostBack)
             {       
 
@@ -125,6 +124,7 @@ namespace ProyectoFinalA2.Mantenimientos
         protected void NuevoButton_Click(object sender, EventArgs e)
         {
             Limpiar();
+            Utils.ShowToastr(this.Page, "Hello world!", "Hello");
         }
 
         private void Limpiar()

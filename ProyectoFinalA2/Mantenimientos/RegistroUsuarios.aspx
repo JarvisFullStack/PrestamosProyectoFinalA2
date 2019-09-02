@@ -10,12 +10,16 @@
             <div class="form-horizontal col-md-12" role="form">
                 <%--UserId--%>
                 <div class="form-group">
+                    <div class="row">
                     <label for="IdTextBox" class="col-md-3 control-label input-sm">Id: </label>
                     <div class="col-md-1 col-sm-2 col-xs-4">
                         <asp:TextBox ID="IdTextBox" runat="server" ReadOnly="True" placeholder="0" class="form-control input-sm"></asp:TextBox>
                     </div>
                     <div class="col-md-1 col-sm-2 col-xs-4">
-                         <asp:LinkButton ID="BusquedaButton" CssClass="btn btn-info btn-block btn-md" data-toggle="modal" data-target="#myModal" CausesValidation="False" runat="server" Text="<i class='fa fa-search'></i>" PostBackUrl="../Consultas/ConsultaUsuarios.aspx"/>                  
+                       <asp:LinkButton ID="BusquedaButton" CssClass="btn btn-info btn-block btn-md" data-toggle="modal" data-target="#myModal" CausesValidation="False" runat="server" Text="<i class='fa fa-search'></i>"/>    
+                    </div>
+</div>
+                </div>
 <%--
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   <i class="fa fa-search"></i>
@@ -34,33 +38,14 @@
       <div class="modal-body">
         <TWebControl:ConsultaUsuariosUserControl ID="Header" runat="server" />
       </div>
-      <div class="modal-footer">
+      <%--  <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      </div>--%>
     </div>
   </div>
-</div>
-                        
-   <%-- 
-<a href='' data-toggle='modal' data-target='#modalC'>Book Now</a>
-<div class="modal fade" id="modalC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="myModalLabel">Cantidad reservas mensuales</h4>
-            </div>
-            <div class="modal-body" id="content">
-                <iframe src="../Consultas/ConsultaUsuarios.aspx">
-            </div>
-        </div>
-    </div>
-</div>
---%>
-
-
-                    </div>
+</div>                        
+                   
                 </div>
                 <%--Names--%>
                 <div class="form-group">
