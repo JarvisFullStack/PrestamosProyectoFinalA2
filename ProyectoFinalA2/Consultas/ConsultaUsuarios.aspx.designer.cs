@@ -13,39 +13,12 @@ namespace ProyectoFinalA2.Consultas {
     public partial class ConsultaUsuarios {
         
         /// <summary>
-        /// Control BuscarPorDropDownList.
+        /// Control Header.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList BuscarPorDropDownList;
-        
-        /// <summary>
-        /// Control FiltroTextBox.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FiltroTextBox;
-        
-        /// <summary>
-        /// Control BuscarButton.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BuscarButton;
-        
-        /// <summary>
-        /// Control DatosGridView.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DatosGridView;
+        protected global::ProyectoFinalA2.Consultas.ConsultaUsuariosUserControl Header;
     }
 }

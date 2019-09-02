@@ -13,41 +13,7 @@ namespace ProyectoFinalA2.Consultas
     {
         protected override void OnLoad(EventArgs e)
         {
-            base.OnLoad(e);
-            //-- Create your controls here
-        }
-        /*
-        protected override void OnPreInit(EventArgs e)
-        {
-            if (Request.QueryString["iframe"] == "true")
-                MasterPageFile = "../";
-        }*/
-
-        protected void BuscarButton_Click(object sender, EventArgs e)
-        {
-            //Inicializando el filtro en True
-            Expression<Func<User, bool>> filtro = x => true;
-            BLL.BaseRepository<User> repositorio = new BLL.BaseRepository<User>();
-
-            int id;
-            if (!string.IsNullOrEmpty(FiltroTextBox.Text))
-            {
-
-
-                switch (BuscarPorDropDownList.SelectedIndex)
-                {
-                    case 0://ID
-                        id = Utils.ToInt(FiltroTextBox.Text);
-                        filtro = c => c.Id_User == id;
-                        break;
-                    case 1:// nombre
-                        filtro = c => c.Name.Contains(FiltroTextBox.Text);
-                        break;
-                }
-            }
-
-            DatosGridView.DataSource = repositorio.GetList(filtro);
-            DatosGridView.DataBind();
+            base.OnLoad(e);          
         }
     }
 }
